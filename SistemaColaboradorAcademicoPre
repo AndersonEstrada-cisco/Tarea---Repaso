@@ -1,0 +1,20 @@
+------------------------ PREGUNTAS ------------------------
+
+¿Dónde se evidencia el encapsulamiento? 
+Se evidencia en los atributos privados y al usar getters y setters
+
+¿Qué método utiliza return y por qué? 
+El metodo calcularPago() lo usa porque se necesita que devuelva un valor double
+
+¿Qué método se sobrescribe en la clase nieta? 
+El metodo calcularPago() se sobrescribe en DocenteInvestigador
+
+¿Dónde se evidencia la sobrecarga? 
+En la función con retorno calcularPago()
+ * public double calcularPago()
+ * public double calcularPago(double bonoExtra)
+
+
+¿Dónde se evidencia el polimorfismo?
+En " PersonaAcademica docenteInvestigador = new DocenteInvestigador(...); "
+Cuando creo un objeto de una clase hija DocenteInvestigador en la clase padre Persona Academica dentro del main.
