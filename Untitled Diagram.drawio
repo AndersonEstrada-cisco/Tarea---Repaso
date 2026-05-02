@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="X-PM5SV7uxSJF5tb0KLE">
+    <mxGraphModel dx="1106" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-21" edge="1" parent="1" source="bCNi-HZHGDmC1e3grCBn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="bCNi-HZHGDmC1e3grCBn-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="220" />
+              <mxPoint x="72" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-22" edge="1" parent="1" source="bCNi-HZHGDmC1e3grCBn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="bCNi-HZHGDmC1e3grCBn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="350" />
+              <mxPoint x="425" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-24" edge="1" parent="1" source="bCNi-HZHGDmC1e3grCBn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.013;exitY=0.324;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;exitPerimeter=0;" target="bCNi-HZHGDmC1e3grCBn-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="220" as="sourcePoint" />
+            <mxPoint x="815" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Abstracta&amp;gt;&amp;gt;&lt;div&gt;Habitación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="250" x="290" y="20" as="geometry">
+            <mxRectangle height="50" width="120" x="290" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-2" parent="bCNi-HZHGDmC1e3grCBn-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt; - codigo : String&lt;/span&gt;&lt;br&gt;&lt;span&gt;- tipoHabitacion : String&lt;/span&gt;&lt;br&gt;&lt;span&gt;- tarifaBase : double&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;- numeroNoches : int&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;- disponible : boolean&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="250" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-3" parent="bCNi-HZHGDmC1e3grCBn-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-4" parent="bCNi-HZHGDmC1e3grCBn-1" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;br&gt;+ calcularHospedaje() : double (abstract)&lt;br&gt;+ mostrarDetalle() : void (abstract)&lt;br&gt;+ verificarDisponibilidad() : boolean&lt;br&gt;+ setNumeroNoches(int) : void&lt;br&gt;+ setTarifaBase(double) : void&lt;br&gt;+ getNumeroNoches() : int&lt;br&gt;+ getTarifaBase() : double" vertex="1">
+          <mxGeometry height="142" width="250" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HabitacionSimple" vertex="1">
+          <mxGeometry height="190" width="210" x="320" y="380" as="geometry">
+            <mxRectangle height="30" width="130" x="320" y="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-6" parent="bCNi-HZHGDmC1e3grCBn-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- desayunoIncluido : boolean&lt;/div&gt;&lt;div&gt;- costoBasico : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-7" parent="bCNi-HZHGDmC1e3grCBn-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-8" parent="bCNi-HZHGDmC1e3grCBn-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ calcularHospedaje() : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ mostrarDetalle() : void&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches) : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches, double descuento) : double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="210" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Suite" vertex="1">
+          <mxGeometry height="190" width="310" x="545" y="380" as="geometry">
+            <mxRectangle height="30" width="70" x="545" y="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-11" parent="bCNi-HZHGDmC1e3grCBn-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;- jacuzzi : boolean&lt;/span&gt;&lt;br&gt;&lt;span&gt;- servicioPremium : double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-12" parent="bCNi-HZHGDmC1e3grCBn-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-13" parent="bCNi-HZHGDmC1e3grCBn-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ calcularHospedaje() : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ mostrarDetalle() : void&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches) : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches, double descuento) : double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HabitacionFamiliar" vertex="1">
+          <mxGeometry height="190" width="300" x="2" y="380" as="geometry">
+            <mxRectangle height="30" width="140" x="2" y="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-16" parent="bCNi-HZHGDmC1e3grCBn-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;- capacidadPersonas : int&lt;/span&gt;&lt;br&gt;&lt;span&gt;- descuentoFamiliar : double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-17" parent="bCNi-HZHGDmC1e3grCBn-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bCNi-HZHGDmC1e3grCBn-18" parent="bCNi-HZHGDmC1e3grCBn-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;+ calcularHospedaje() : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ mostrarDetalle() : void&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches) : double&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ calcularPago(int noches, double descuento) : double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="300" y="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
